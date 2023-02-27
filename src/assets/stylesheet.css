@@ -1,0 +1,47 @@
+#date-picker-wrapper{
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100%;
+
+}
+#outlined-size-normal{
+    height: 32px;
+    padding: 5px;
+}
+#outlined-size-normal-textArea{
+    border:1px solid rgb(210 214 218);
+    border-radius:10px
+}
+#outlined-size-normal-textArea:focus{
+    border:2px solid rgb(54 143 237);
+}
+#textFieldStyle{
+    width:100%;
+    height:30px;
+    padding:5px;
+    color:white
+}
+#textFieldStyle2{
+    /* width:10px; */
+    height:30px;
+    color: white;
+    padding:5px
+}
+#textData{
+    font-weight: 100;
+    font-size: 18px;
+    margin-top: 3px;
+}
+#tableResponsive{
+    width:'100%';
+    /* border:1px solid #d6d3d3;
+    background-color: white;
+    border-radius: 10px; */
+}
+@media only screen and (max-width: 600px) {
+    
+    #tableResponsive{
+        width:300px;
+        overflow-x:auto
+    }
+}
